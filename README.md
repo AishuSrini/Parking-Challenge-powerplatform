@@ -109,7 +109,7 @@ The Power BI analytics solution is designed for actionable insight and executive
 
    + Navigation buttons and links provide a seamless analytic experience.
 
-# **🚦 Solution Impact**
+# 🚦 **Solution Impact**
 * **End-to-end process automation:** From request to inspection and reporting.
 
 * **Data-driven management:** Immediate visibility into compliance, occupancy, and unauthorized use.
@@ -118,7 +118,7 @@ The Power BI analytics solution is designed for actionable insight and executive
 
 * **User-centric design:** Intuitive forms, mobile-friendly inspector workflow, and clear, actionable reports.
 
-# **📂 Files Included**
+# 📂 **Files Included**
 * ParkingChallengeDemo_1_0_0_2_managed.zip — Managed Power Platform solution (import via Power Platform Solutions)
 
 * Parking Inspection Report.pbix — Power BI report (open in Power BI Desktop)
@@ -127,7 +127,7 @@ The Power BI analytics solution is designed for actionable insight and executive
 
 * /demo/ — Walkthrough video
 
-  # **📝 How to Use**
+  # 📝 **How to Use**
 1.Import the managed solution into your Power Platform environment.
 
 2.Launch the model-driven app for administration.
