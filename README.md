@@ -114,9 +114,9 @@ The Power BI analytics solution is designed for actionable insight and executive
 
 * **Data-driven management:** Immediate visibility into compliance, occupancy, and unauthorized use.
 
-**Extensible framework:** Ready to adapt for broader organizational needs (e.g., multi-site, predictive analytics, integration with physical access systems).
+* **Extensible framework:** Ready to adapt for broader organizational needs (e.g., multi-site, predictive analytics, integration with physical access systems).
 
-**User-centric design:** Intuitive forms, mobile-friendly inspector workflow, and clear, actionable reports.
+* **User-centric design:** Intuitive forms, mobile-friendly inspector workflow, and clear, actionable reports.
 
 # **📂 Files Included**
 * ParkingChallengeDemo_1_0_0_2_managed.zip — Managed Power Platform solution (import via Power Platform Solutions)
