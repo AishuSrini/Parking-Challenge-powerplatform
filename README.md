@@ -127,7 +127,7 @@ The Power BI analytics solution is designed for actionable insight and executive
 
 * /demo/ — Walkthrough video
 
-  # 📝 **How to Use**
+# 📝 **How to Use**
 1.Import the managed solution into your Power Platform environment.
 
 2.Launch the model-driven app for administration.
@@ -167,6 +167,6 @@ This project is provided under the MIT License.
 You are free to use, modify, and distribute this solution for educational and non-commercial purposes.
 
 📬 Contact
-For questions, demos, or collaboration, connect with me on LinkedIn [linkedin.com/in/aishwaryasrinivasan] or explore more on my GitHub.
+For questions, demos, or collaboration, connect with me on [LinkedIn] linkedin.com/in/aishwaryasrinivasan or explore more on my GitHub.
 
 Developed as part of the Microsoft Power Up Program – Pathfinder (Power Platform). For learning and demonstration only. No confidential data included.
