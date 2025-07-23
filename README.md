@@ -13,15 +13,16 @@ Contoso High School faced increasing complaints about parking availability from 
 3.Provide insights to reduce unauthorized parking and optimize parking management
 # **🛠️ Solution Components**
 **1. Dataverse Data Model**
+
 Three key tables (entities) were created:
 
-**1.Vehicle:** Holds all registered vehicles, with columns for VehicleName, Make, Model, VehicleOwnerEmail, and VehicleImage.
+**Vehicle:** Holds all registered vehicles, with columns for VehicleName, Make, Model, VehicleOwnerEmail, and VehicleImage.
 
-**2.Parking Request:** Captures each parking request (ParkingRequestName, Vehicle, ParkingRequestDateTime).
+**Parking Request:** Captures each parking request (ParkingRequestName, Vehicle, ParkingRequestDateTime).
 
-**3.Parking Inspection:** Logs daily inspections (ParkingInspectionName, InspectionDateTime, Vehicle, ParkingRequest).
+**Parking Inspection:** Logs daily inspections (ParkingInspectionName, InspectionDateTime, Vehicle, ParkingRequest).
 
-**Forms:**
+# **Forms:**
 Each table includes a custom form for data entry and updates:
 
 **Vehicle Form:** Includes subgrids for related Parking Requests and Inspections.
@@ -30,7 +31,7 @@ Each table includes a custom form for data entry and updates:
 
 **Parking Inspection Form:** Connects each inspection to both the vehicle and (optionally) a valid parking request.
 
-**Views:**
+# **Views:**
 
 **Active Vehicles:** Quick overview for admins (VehicleName, Make, Model, Owner).
 
