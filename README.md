@@ -167,7 +167,7 @@ This project is provided under the MIT License.
 You are free to use, modify, and distribute this solution for educational and non-commercial purposes.
 
 📬 Contact
-For questions, demos, or collaboration, connect with me on [LinkedIn] https://linkedin.com/in/aishwaryasrinivasan or explore more on my GitHub.
+For questions, demos, or collaboration, connect with me on [LinkedIn]https://linkedin.com/in/aishwaryasrinivasan or explore more on my GitHub.
 
 
 Developed as part of the Microsoft Power Up Program – Pathfinder (Power Platform). For learning and demonstration only. No confidential data included.
