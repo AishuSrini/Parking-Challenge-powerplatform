@@ -41,3 +41,15 @@ Each table includes a custom form for data entry and updates:
 
 Data was populated using the provided CSV templates, following the prescribed order (Vehicle → Parking Request → Parking Inspection) and with US datetime formatting as required.
 
+# **2. Model-Driven App**
+The model-driven app serves as the administrative hub for the solution:
+
+  Manage vehicles, parking requests, and inspections via unified navigation
+
+  Create and review parking requests on behalf of staff/visitors
+
+  Access relational data (vehicle → requests/inspections)
+
+  Perform CRUD operations across all tables with built-in security and audit trails
+
+**Forms and views** from the Dataverse model are embedded, ensuring a consistent, modern, and streamlined admin experience.
