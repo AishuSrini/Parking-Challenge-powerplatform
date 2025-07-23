@@ -53,3 +53,120 @@ The model-driven app serves as the administrative hub for the solution:
 * Perform CRUD operations across all tables with built-in security and audit trails
 
 **Forms and views** from the Dataverse model are embedded, ensuring a consistent, modern, and streamlined admin experience.
+
+3. Canvas App (Inspector App)
+A tablet-optimized canvas app enables field inspectors to efficiently log daily inspections:
+
+**Screens:**
+
+* **Home:** Easy navigation to ‘Review’ or ‘New Inspection’ screens
+
+* **Review:** Gallery of today’s inspections (Inspection, Vehicle, DateTime, Make, Model, ParkingRequest, ParkingRequestDateTime)
+
+* **New Inspection:** Form for logging an inspection, pre-populated with the current time; vehicle selection; quick creation of new vehicles if needed
+
+* **New Vehicle:** Capture and register vehicles not previously seen; post-submission navigation ensures updated inspection data
+
+**Modern controls** and clear headers are used throughout for usability.
+
+4. Power Automate Cloud Flow
+**Parking Request Notification:**
+
+* Automated cloud flow sends a personalized email to vehicle owners upon approval of their parking request.
+
+* Dynamic email fields: vehicle name, request ID, with the school signature.
+
+* Advanced logic uses Power Fx and flow expressions to:
+
++ **Enforce 5PM cutoff** (no valid requests after inspection)
+
++ **Respect parking lot capacity** (limit to 15 spots per day; overflows handled accordingly)
+
+Admins are advised to disable the flow when bulk uploading requests to avoid excessive emails.
+
+# **5. Power BI Report**
+The Power BI analytics solution is designed for actionable insight and executive review:
+
+**Three Pages:**
+
+* **Home:** Navigation buttons to Filters and Parking Review
+
+* **Filters:** Slicers for vehicle make/model, calendar, and day of week; changes reflect dynamically across all report pages
+
+* **Parking Review:** Key cards (Total Inspections, % Valid Requests), bar charts (inspection outcomes over time), matrices (per-vehicle analytics), and direct links to underlying inspection records in the model-driven app
+
+**Data Model:**
+
+* Integrates Parking Inspections, Vehicles, and a calculated Date dimension using DAX (see [Appendix 1] for formula).
+
+* Valid inspections are defined by the relationship between inspections and parking requests.
+
+* Measures include Total Inspections, Total Requests, % Inspections with Valid Requests.
+
+**Cross-Page Filtering & Navigation:**
+
+* Selecting a filter (vehicle or date) updates all linked metrics and visuals across the report.
+
+* Navigation buttons and links provide a seamless analytic experience.
+
+# **🚦 Solution Impact**
+* **End-to-end process automation:** From request to inspection and reporting.
+
+* **Data-driven management:** Immediate visibility into compliance, occupancy, and unauthorized use.
+
+**Extensible framework:** Ready to adapt for broader organizational needs (e.g., multi-site, predictive analytics, integration with physical access systems).
+
+**User-centric design:** Intuitive forms, mobile-friendly inspector workflow, and clear, actionable reports.
+
+# **📂 Files Included**
+* ParkingChallengeDemo_1_0_0_2_managed.zip — Managed Power Platform solution (import via Power Platform Solutions)
+
+* Parking Inspection Report.pbix — Power BI report (open in Power BI Desktop)
+
+* /screenshots/ — Key visuals of the apps and reports
+
+*/demo/ — Walkthrough video
+
+  # **📝 How to Use**
+1.Import the managed solution into your Power Platform environment.
+
+2.Launch the model-driven app for administration.
+
+3.Deploy the canvas app on a tablet for daily inspections.
+
+4.Configure email for the automated flow (for real notifications).
+
+5.Open the Power BI report to analyze parking data and trends.
+
+6.(Optional) Extend with sample data or your own customizations.
+
+# **🌱 How Would I Extend This Solution?**
+* Enable self-service portals for staff/visitor parking requests.
+
+* Integrate with real-time campus access control and license plate recognition via AI Builder.
+
+* Expand analytics to include forecasted demand and suggest optimal parking assignments.
+
+* Adapt solution for business campuses, hospitals, or event venues with multiple lots and access tiers.
+
+# **🤝 Contributing**
+Contributions are welcome!
+If you have suggestions for new features or enhancements, please open an issue or submit a pull request.
+When contributing, please follow these steps:
+
+1.Fork the repository
+
+2.Create a new branch for your feature/fix
+
+3.Commit your changes with clear messages
+
+4.Open a pull request describing your changes
+
+# **📝 License**
+This project is provided under the MIT License.
+You are free to use, modify, and distribute this solution for educational and non-commercial purposes.
+
+📬 Contact
+For questions, demos, or collaboration, connect with me on LinkedIn[linkedin.com/in/aishwaryasrinivasan] or explore more on my GitHub.
+
+Developed as part of the Microsoft Power Up Program – Pathfinder (Power Platform). For learning and demonstration only. No confidential data included.
