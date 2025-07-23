@@ -12,7 +12,7 @@ Contoso High School faced increasing complaints about parking availability from 
 
 3.Provide insights to reduce unauthorized parking and optimize parking management
 # **🛠️ Solution Components**
-**1. Dataverse Data Model**
+# **1. Dataverse Data Model**
 
 Three key tables (entities) were created:
 
