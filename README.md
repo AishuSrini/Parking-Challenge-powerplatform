@@ -89,11 +89,11 @@ The Power BI analytics solution is designed for actionable insight and executive
 
 * **Three Pages:**
 
-+ **Home:** Navigation buttons to Filters and Parking Review
+- **Home:** Navigation buttons to Filters and Parking Review
 
-+ **Filters:** Slicers for vehicle make/model, calendar, and day of week; changes reflect dynamically across all report pages
+- **Filters:** Slicers for vehicle make/model, calendar, and day of week; changes reflect dynamically across all report pages
 
-+ **Parking Review:** Key cards (Total Inspections, % Valid Requests), bar charts (inspection outcomes over time), matrices (per-vehicle analytics), and direct links to underlying inspection records in the model-driven app
+- **Parking Review:** Key cards (Total Inspections, % Valid Requests), bar charts (inspection outcomes over time), matrices (per-vehicle analytics), and direct links to underlying inspection records in the model-driven app
 
 * **Data Model:**
 
