@@ -97,17 +97,17 @@ The Power BI analytics solution is designed for actionable insight and executive
 
 * **Data Model:**
 
-+ Integrates Parking Inspections, Vehicles, and a calculated Date dimension using DAX (see [Appendix 1] for formula).
+   + Integrates Parking Inspections, Vehicles, and a calculated Date dimension using DAX (see [Appendix 1] for formula).
 
-+ Valid inspections are defined by the relationship between inspections and parking requests.
+   + Valid inspections are defined by the relationship between inspections and parking requests.
 
-+ Measures include Total Inspections, Total Requests, % Inspections with Valid Requests.
+   + Measures include Total Inspections, Total Requests, % Inspections with Valid Requests.
 
 * **Cross-Page Filtering & Navigation:**
 
-+ Selecting a filter (vehicle or date) updates all linked metrics and visuals across the report.
+   + Selecting a filter (vehicle or date) updates all linked metrics and visuals across the report.
 
-+ Navigation buttons and links provide a seamless analytic experience.
+   + Navigation buttons and links provide a seamless analytic experience.
 
 # **🚦 Solution Impact**
 * **End-to-end process automation:** From request to inspection and reporting.
