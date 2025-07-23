@@ -69,14 +69,14 @@ A tablet-optimized canvas app enables field inspectors to efficiently log daily 
 
 **Modern controls** and clear headers are used throughout for usability.
 
-4. Power Automate Cloud Flow
+# **4. Power Automate Cloud Flow**
 **Parking Request Notification:**
 
 * Automated cloud flow sends a personalized email to vehicle owners upon approval of their parking request.
 
 * Dynamic email fields: vehicle name, request ID, with the school signature.
 
-* Advanced logic uses Power Fx and flow expressions to:
+* Advanced logic uses **Power Fx** and flow expressions to:
 
 + **Enforce 5PM cutoff** (no valid requests after inspection)
 
@@ -87,27 +87,27 @@ Admins are advised to disable the flow when bulk uploading requests to avoid exc
 # **5. Power BI Report**
 The Power BI analytics solution is designed for actionable insight and executive review:
 
-**Three Pages:**
+* **Three Pages:**
 
-* **Home:** Navigation buttons to Filters and Parking Review
++ **Home:** Navigation buttons to Filters and Parking Review
 
-* **Filters:** Slicers for vehicle make/model, calendar, and day of week; changes reflect dynamically across all report pages
++ **Filters:** Slicers for vehicle make/model, calendar, and day of week; changes reflect dynamically across all report pages
 
-* **Parking Review:** Key cards (Total Inspections, % Valid Requests), bar charts (inspection outcomes over time), matrices (per-vehicle analytics), and direct links to underlying inspection records in the model-driven app
++ **Parking Review:** Key cards (Total Inspections, % Valid Requests), bar charts (inspection outcomes over time), matrices (per-vehicle analytics), and direct links to underlying inspection records in the model-driven app
 
-**Data Model:**
+* **Data Model:**
 
-* Integrates Parking Inspections, Vehicles, and a calculated Date dimension using DAX (see [Appendix 1] for formula).
++ Integrates Parking Inspections, Vehicles, and a calculated Date dimension using DAX (see [Appendix 1] for formula).
 
-* Valid inspections are defined by the relationship between inspections and parking requests.
++ Valid inspections are defined by the relationship between inspections and parking requests.
 
-* Measures include Total Inspections, Total Requests, % Inspections with Valid Requests.
++ Measures include Total Inspections, Total Requests, % Inspections with Valid Requests.
 
-**Cross-Page Filtering & Navigation:**
+* **Cross-Page Filtering & Navigation:**
 
-* Selecting a filter (vehicle or date) updates all linked metrics and visuals across the report.
++ Selecting a filter (vehicle or date) updates all linked metrics and visuals across the report.
 
-* Navigation buttons and links provide a seamless analytic experience.
++ Navigation buttons and links provide a seamless analytic experience.
 
 # **🚦 Solution Impact**
 * **End-to-end process automation:** From request to inspection and reporting.
