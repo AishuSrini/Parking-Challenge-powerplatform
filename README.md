@@ -54,7 +54,7 @@ The model-driven app serves as the administrative hub for the solution:
 
 **Forms and views** from the Dataverse model are embedded, ensuring a consistent, modern, and streamlined admin experience.
 
-3. Canvas App (Inspector App)
+# **3. Canvas App (Inspector App)**
 A tablet-optimized canvas app enables field inspectors to efficiently log daily inspections:
 
 **Screens:**
