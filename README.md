@@ -28,7 +28,7 @@ Three key tables (entities) were created:
  
 ![Parking Inspection Table: ](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/parking%20inspection%20table.png)
 
-# **Forms:**
+### **Forms:**
 Each table includes a custom form for data entry and updates:
 
 * **Vehicle Form:** Includes subgrids for related Parking Requests and Inspections.
@@ -43,7 +43,7 @@ Each table includes a custom form for data entry and updates:
 
 ![Parking Inspection Table Form: ](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/Table%20Forms%20Screenshots/new%20parking%20inspection%20form.png)
 
-# **Views:**
+### **Views:**
 
 * **Active Vehicles:** Quick overview for admins (VehicleName, Make, Model, Owner).
 
@@ -67,7 +67,7 @@ Each table includes a custom form for data entry and updates:
 
 Data was populated using the provided CSV templates, following the prescribed order (Vehicle → Parking Request → Parking Inspection) and with US datetime formatting as required.
 
-# **2. Model-Driven App**
+### **2. Model-Driven App**
 The model-driven app serves as the administrative hub for the solution:
 
 * Manage vehicles, parking requests, and inspections via unified navigation
@@ -84,7 +84,7 @@ The model-driven app serves as the administrative hub for the solution:
 
 ![Model Driven App -Active Parking Inspections page: ](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/model-driven%20app%20screenshot/Activ%20parking%20inspections.png)
 
-# **3. Canvas App (Inspector App)**
+### **3. Canvas App (Inspector App)**
 A tablet-optimized canvas app enables field inspectors to efficiently log daily inspections:
 
 **Screens:**
@@ -106,7 +106,7 @@ A tablet-optimized canvas app enables field inspectors to efficiently log daily 
 
 **Modern controls** and clear headers are used throughout for usability.
 
-# **4. Power Automate Cloud Flow**
+### **4. Power Automate Cloud Flow**
 **Parking Request Notification:**
 
 * Automated cloud flow sends a personalized email to vehicle owners upon approval of their parking request.
@@ -122,7 +122,7 @@ A tablet-optimized canvas app enables field inspectors to efficiently log daily 
 Admins are advised to disable the flow when bulk uploading requests to avoid excessive emails.
 ![Power AUtomate Workflow](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/PowerAutomate%20Screenshot/parking%20notification%20workflow.png)
 
-# **5. Power BI Report**
+### **5. Power BI Report**
 The Power BI analytics solution is designed for actionable insight and executive review:
 
 - **Three Pages:**
@@ -151,16 +151,16 @@ The Power BI analytics solution is designed for actionable insight and executive
    + Selecting a filter (vehicle or date) updates all linked metrics and visuals across the report.
 
    + Navigation buttons and links provide a seamless analytic experience.
-# 📚 **Appendix**
+### 📚 **Appendix**
 
 All key Power Automate expressions and Power BI DAX queries for this solution are documented in [APPENDIX.md](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/Appendix.md)
 
-# 🤖 **Demo:**
+### 🤖 **Demo:**
 
 **Watch a Demo Video:**
 [Watch the demo on YouTube] https://youtu.be/3sR2cVcJAeo
 
-# 🚦 **Solution Impact**
+### 🚦 **Solution Impact**
 * **End-to-end process automation:** From request to inspection and reporting.
 
 * **Data-driven management:** Immediate visibility into compliance, occupancy, and unauthorized use.
@@ -169,14 +169,14 @@ All key Power Automate expressions and Power BI DAX queries for this solution ar
 
 * **User-centric design:** Intuitive forms, mobile-friendly inspector workflow, and clear, actionable reports.
 
-# 📂 **Files Included**
+### 📂 **Files Included**
 * ParkingChallengeDemo_1_0_0_2_managed.zip — Managed Power Platform solution (import via Power Platform Solutions)
 
 * Parking Inspection Report.pbix — Power BI report (open in Power BI Desktop)
 
 * /screenshots/ — Key visuals of the apps and reports
 
-# 📝 **How to Use**
+### 📝 **How to Use**
 1.Import the managed solution into your Power Platform environment.
 
 2.Launch the model-driven app for administration.
@@ -189,7 +189,7 @@ All key Power Automate expressions and Power BI DAX queries for this solution ar
 
 6.(Optional) Extend with sample data or your own customizations.
 
-# **🌱 How Would I Extend This Solution?**
+### **🌱 How Would I Extend This Solution?**
 * Enable self-service portals for staff/visitor parking requests.
 
 * Integrate with real-time campus access control and license plate recognition via AI Builder.
@@ -198,7 +198,7 @@ All key Power Automate expressions and Power BI DAX queries for this solution ar
 
 * Adapt solution for business campuses, hospitals, or event venues with multiple lots and access tiers.
 
-# **🤝 Contributing**
+### **🤝 Contributing**
 Contributions are welcome!
 If you have suggestions for new features or enhancements, please open an issue or submit a pull request.
 When contributing, please follow these steps:
@@ -211,7 +211,7 @@ When contributing, please follow these steps:
 
 4.Open a pull request describing your changes
 
-# **📝 License**
+### **📝 License**
 This project is provided under the MIT License.
 You are free to use, modify, and distribute this solution for educational and non-commercial purposes.
 
