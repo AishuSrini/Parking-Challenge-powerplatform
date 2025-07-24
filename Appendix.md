@@ -1,24 +1,24 @@
 # **Power Automate Expressions (Eastern Standard Time)**
 
-Format parking request datetime from trigger:
+**Format parking request datetime from trigger:**
 
 ```
 formatDateTime(triggerOutputs()?['body/pc_parkingrequestdatetime'],'yyyy-MM-ddTHH:mm:ssZ')
 ```
 
-# **Start of day in EST:**
+**Start of day in EST:**
 
 ```
 formatDateTime(convertTimeZone(utcNow(),'UTC','Eastern Standard Time'),'yyyy-MM-ddT00:00:00Z')
 ```
 
-# **End of day in EST:**
+**End of day in EST:**
 
 ```
 formatDateTime(convertTimeZone(utcNow(),'UTC','Eastern Standard Time'),'yyyy-MM-ddT23:59:59Z')
 ```
 
-# **Dynamic filter for parking requests in a given EST day:**
+**Dynamic filter for parking requests in a given EST day:**
 
 ```
 pc_parkingrequestdatetime ge @{formatDateTime(convertTimeZone(utcNow(),'UTC','Eastern Standard Time'),'yyyy-MM-ddT00:00:00Z')} 
@@ -27,9 +27,10 @@ pc_parkingrequestdatetime le @{formatDateTime(convertTimeZone(utcNow(),'UTC','Ea
 ```
 
 # **Power BI DAX Queries**
-Date Dimension Table
 
-'''
+**Date Dimension Table**
+
+```
 dimDate = ADDCOLUMNS(
     CALENDARAUTO(),
     "MonthID", MONTH([Date]),
@@ -51,11 +52,11 @@ dimDate = ADDCOLUMNS(
     ),
     "Report Refresh", Now() //We'll use this to display the report refresh date
 )
-'''
+```
 
-# **Key Measures & Calculated Columns**
+**Key Measures & Calculated Columns**
 
-'''
+```
 // Create a new date-only column from InspectionDateTime
 InspectionDate = 
 DATE(
@@ -71,10 +72,10 @@ IF(
     TRUE(),  // Has associated request, thus permitted
     FALSE()  // No request, thus not permitted
 )
-'''
-// Measures
+```
+**Measures**
 
-'''
+```
 Total Inspections = 
 COUNTROWS('Parking Inspections')
 
@@ -83,12 +84,12 @@ CALCULATE(
     COUNTROWS('Parking Inspections'),
     'Parking Inspections'[isRequested] = TRUE()
 )
-'''
-'''
+```
+```
 % Inspections with Valid Parking Requests = 
 DIVIDE(
     [Total Requests],
     [Total Inspections],
     0
 )
-'''
+```
