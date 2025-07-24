@@ -125,7 +125,7 @@ The Power BI analytics solution is designed for actionable insight and executive
 
 * /screenshots/ — Key visuals of the apps and reports
 
-  # 🤖 **Demo:**
+# 🤖 **Demo:**
 
 **Watch a Demo Video:**
 [Watch the demo on YouTube] https://youtu.be/3sR2cVcJAeo
