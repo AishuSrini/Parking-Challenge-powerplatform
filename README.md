@@ -125,7 +125,11 @@ The Power BI analytics solution is designed for actionable insight and executive
 
 * /screenshots/ — Key visuals of the apps and reports
 
-* /demo/ — Walkthrough video
+  # 🤖 **Demo:**
+
+**Watch a Demo Video:**
+[Watch the demo on YouTube] https://youtu.be/3sR2cVcJAeo
+
 
 # 📝 **How to Use**
 1.Import the managed solution into your Power Platform environment.
