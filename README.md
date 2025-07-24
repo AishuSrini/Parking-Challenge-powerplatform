@@ -213,6 +213,6 @@ When contributing, please follow these steps:
 
 ### **📝 License**
 
-This project is licensed under the [MIT License](./LICENSE).
+This project is licensed under the [MIT License](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/License).
 
 Developed as part of the Microsoft Power Up Program – Pathfinder (Power Platform). For learning and demonstration only. No confidential data included.
