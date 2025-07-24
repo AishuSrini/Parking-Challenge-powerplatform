@@ -153,7 +153,7 @@ The Power BI analytics solution is designed for actionable insight and executive
    + Navigation buttons and links provide a seamless analytic experience.
 # 📚 **Appendix**
 
-All key Power Automate expressions and Power BI DAX queries for this solution are documented in [APPENDIX.md]https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/Appendix.md)
+All key Power Automate expressions and Power BI DAX queries for this solution are documented in [APPENDIX.md](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/Appendix.md)
 
 
 # 🚦 **Solution Impact**
