@@ -155,6 +155,10 @@ The Power BI analytics solution is designed for actionable insight and executive
 
 All key Power Automate expressions and Power BI DAX queries for this solution are documented in [APPENDIX.md](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/Appendix.md)
 
+# 🤖 **Demo:**
+
+**Watch a Demo Video:**
+[Watch the demo on YouTube] https://youtu.be/3sR2cVcJAeo
 
 # 🚦 **Solution Impact**
 * **End-to-end process automation:** From request to inspection and reporting.
@@ -171,12 +175,6 @@ All key Power Automate expressions and Power BI DAX queries for this solution ar
 * Parking Inspection Report.pbix — Power BI report (open in Power BI Desktop)
 
 * /screenshots/ — Key visuals of the apps and reports
-
-# 🤖 **Demo:**
-
-**Watch a Demo Video:**
-[Watch the demo on YouTube] https://youtu.be/3sR2cVcJAeo
-
 
 # 📝 **How to Use**
 1.Import the managed solution into your Power Platform environment.
