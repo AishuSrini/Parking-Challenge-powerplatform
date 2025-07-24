@@ -47,9 +47,23 @@ Each table includes a custom form for data entry and updates:
 
 * **Active Vehicles:** Quick overview for admins (VehicleName, Make, Model, Owner).
 
+![Active Vehicles View: ](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/Table%20views%20Screenshots/Active%20vehicle%20view.png)
+
 * **Active Parking Requests/Today:** Review and filter requests (by name, date/time, vehicle; filtered for today).
 
+![Active Parking Request View: ](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/Table%20views%20Screenshots/Active%20Parking%20Request%20view.png)
+
+**Active Parking Requests Today View:** 
+
+![Active Parking Request Today View: ](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/Table%20views%20Screenshots/Active%20parking%20request%20Today%20view.png)
+
 * **Active Parking Inspections/Today:** See all inspections for the current day, with related vehicle and request info.
+  
+![Active Parking Inspections View: ](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/Table%20views%20Screenshots/Active%20parking%20inspection%20view.png)
+
+**Active Parking Inspections Today View:**
+
+![Active Parking Inspections Today View: ](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/Table%20views%20Screenshots/Active%20parking%20inspection%20Today%20view.png)
 
 Data was populated using the provided CSV templates, following the prescribed order (Vehicle → Parking Request → Parking Inspection) and with US datetime formatting as required.
 
