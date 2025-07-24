@@ -109,6 +109,7 @@ A tablet-optimized canvas app enables field inspectors to efficiently log daily 
 + **Respect parking lot capacity** (limit to 15 spots per day; overflows handled accordingly)
 
 Admins are advised to disable the flow when bulk uploading requests to avoid excessive emails.
+![Power AUtomate Workflow](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/PowerAutomate%20Screenshot/parking%20notification%20workflow.png)
 
 # **5. Power BI Report**
 The Power BI analytics solution is designed for actionable insight and executive review:
