@@ -178,10 +178,15 @@ All key Power Automate expressions and Power BI DAX queries for this solution ar
 ### 📝 **How to Use**
 
 1.Import the managed solution into your Power Platform environment.
+
 2.Launch the model-driven app for administration.
+
 3.Deploy the canvas app on a tablet for daily inspections.
+
 4.Configure email for the automated flow (for real notifications).
+
 5.Open the Power BI report to analyze parking data and trends.
+
 6.(Optional) Extend with sample data or your own customizations.
 
 ### **🌱 How Would I Extend This Solution?**
