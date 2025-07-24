@@ -17,12 +17,15 @@ This repository contains my submission for the Microsoft Power Up Challenge—a 
 Three key tables (entities) were created:
 
 * **Vehicle:** Holds all registered vehicles, with columns for VehicleName, Make, Model, VehicleOwnerEmail, and VehicleImage.
+  
 ![Vehicle Table: ](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/vehicle%20table.png)
 
 * **Parking Request:** Captures each parking request (ParkingRequestName, Vehicle, ParkingRequestDateTime).
-
+* 
+![Parking Request Table: ](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/parking%20request%20table.png)
 * **Parking Inspection:** Logs daily inspections (ParkingInspectionName, InspectionDateTime, Vehicle, ParkingRequest).
-
+* 
+![Parking Inspection Table: ](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/parking%20inspection%20table.png)
 
 # **Forms:**
 Each table includes a custom form for data entry and updates:
