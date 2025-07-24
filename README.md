@@ -140,7 +140,7 @@ The Power BI analytics solution is designed for actionable insight and executive
 
 * **Data Model:**
 
-   + Integrates Parking Inspections, Vehicles, and a calculated Date dimension using DAX (see [Appendix 1] for formula).
+   + Integrates Parking Inspections, Vehicles, and a calculated Date dimension using DAX (see [APPENDIX.md](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/Appendix.md) for formula).
 
    + Valid inspections are defined by the relationship between inspections and parking requests.
 
@@ -158,7 +158,7 @@ All key Power Automate expressions and Power BI DAX queries for this solution ar
 ### 🤖 **Demo:**
 
 **Watch a Demo Video:**
-[Watch the demo on YouTube] https://youtu.be/3sR2cVcJAeo
+[Watch the demo on YouTube] (https://youtu.be/3sR2cVcJAeo)
 
 ### 🚦 **Solution Impact**
 * **End-to-end process automation:** From request to inspection and reporting.
@@ -170,23 +170,18 @@ All key Power Automate expressions and Power BI DAX queries for this solution ar
 * **User-centric design:** Intuitive forms, mobile-friendly inspector workflow, and clear, actionable reports.
 
 ### 📂 **Files Included**
+
 * ParkingChallengeDemo_1_0_0_2_managed.zip — Managed Power Platform solution (import via Power Platform Solutions)
 
 * Parking Inspection Report.pbix — Power BI report (open in Power BI Desktop)
 
-* /screenshots/ — Key visuals of the apps and reports
-
 ### 📝 **How to Use**
+
 1.Import the managed solution into your Power Platform environment.
-
 2.Launch the model-driven app for administration.
-
 3.Deploy the canvas app on a tablet for daily inspections.
-
 4.Configure email for the automated flow (for real notifications).
-
 5.Open the Power BI report to analyze parking data and trends.
-
 6.(Optional) Extend with sample data or your own customizations.
 
 ### **🌱 How Would I Extend This Solution?**
