@@ -32,10 +32,16 @@ Three key tables (entities) were created:
 Each table includes a custom form for data entry and updates:
 
 * **Vehicle Form:** Includes subgrids for related Parking Requests and Inspections.
+  
+![Vehicle Table Form: ](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/Table%20Forms%20Screenshots/New%20vehicle%20form.png)
 
 * **Parking Request Form:** Ties each request to a vehicle and date/time.
+  
+![Parking Request Table Form: ](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/Table%20Forms%20Screenshots/New%20parking%20Request%20form.png)
 
 * **Parking Inspection Form:** Connects each inspection to both the vehicle and (optionally) a valid parking request.
+
+![Parking Inspection Table Form: ](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/Table%20Forms%20Screenshots/new%20parking%20inspection%20form.png)
 
 # **Views:**
 
