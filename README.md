@@ -11,8 +11,8 @@ This repository contains my submission for the Microsoft Power Up Challenge—a 
 * Enable a parking inspector to log parked vehicles at 5PM daily
 
 * Provide insights to reduce unauthorized parking and optimize parking management
-# 💡 **Solution Components**
-# **1. Dataverse Data Model**
+## 💡 **Solution Components**
+### **1. Dataverse Data Model**
 
 Three key tables (entities) were created:
 
