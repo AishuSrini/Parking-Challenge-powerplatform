@@ -1,14 +1,18 @@
 # **Power Automate Expressions (Eastern Standard Time)**
 Format parking request datetime from trigger:
-'''
+
+```
 formatDateTime(triggerOutputs()?['body/pc_parkingrequestdatetime'],'yyyy-MM-ddTHH:mm:ssZ')
-'''
 
-Start of day in EST:
+```
 
-'''
+# **Start of day in EST:**
+
+```
+
 formatDateTime(convertTimeZone(utcNow(),'UTC','Eastern Standard Time'),'yyyy-MM-ddT00:00:00Z')
-'''
+
+```
 
 End of day in EST:
 
