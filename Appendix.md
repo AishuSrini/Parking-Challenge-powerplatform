@@ -1,32 +1,30 @@
 # **Power Automate Expressions (Eastern Standard Time)**
+
 Format parking request datetime from trigger:
 
 ```
 formatDateTime(triggerOutputs()?['body/pc_parkingrequestdatetime'],'yyyy-MM-ddTHH:mm:ssZ')
-
 ```
 
 # **Start of day in EST:**
 
 ```
-
 formatDateTime(convertTimeZone(utcNow(),'UTC','Eastern Standard Time'),'yyyy-MM-ddT00:00:00Z')
-
 ```
 
-End of day in EST:
+# **End of day in EST:**
 
-'''
+```
 formatDateTime(convertTimeZone(utcNow(),'UTC','Eastern Standard Time'),'yyyy-MM-ddT23:59:59Z')
-'''
+```
 
-Dynamic filter for parking requests in a given EST day:
+# **Dynamic filter for parking requests in a given EST day:**
 
-'''
+```
 pc_parkingrequestdatetime ge @{formatDateTime(convertTimeZone(utcNow(),'UTC','Eastern Standard Time'),'yyyy-MM-ddT00:00:00Z')} 
 and 
 pc_parkingrequestdatetime le @{formatDateTime(convertTimeZone(utcNow(),'UTC','Eastern Standard Time'),'yyyy-MM-ddT23:59:59Z')}
-'''
+```
 
 # **Power BI DAX Queries**
 Date Dimension Table
