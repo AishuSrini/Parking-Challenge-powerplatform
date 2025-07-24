@@ -189,7 +189,7 @@ All key Power Automate expressions and Power BI DAX queries for this solution ar
 
 6.(Optional) Extend with sample data or your own customizations.
 
-### **🌱 How Would I Extend This Solution?**
+### 🌱 **How Would I Extend This Solution?**
 * Enable self-service portals for staff/visitor parking requests.
 
 * Integrate with real-time campus access control and license plate recognition via AI Builder.
@@ -198,7 +198,7 @@ All key Power Automate expressions and Power BI DAX queries for this solution ar
 
 * Adapt solution for business campuses, hospitals, or event venues with multiple lots and access tiers.
 
-### **🤝 Contributing**
+### 🤝 **Contributing**
 Contributions are welcome!
 If you have suggestions for new features or enhancements, please open an issue or submit a pull request.
 When contributing, please follow these steps:
@@ -211,7 +211,7 @@ When contributing, please follow these steps:
 
 4.Open a pull request describing your changes
 
-### **📝 License**
+### 📝 **LICENSE**
 
 This project is licensed under the [MIT License](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/License).
 
