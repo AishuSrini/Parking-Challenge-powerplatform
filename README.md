@@ -80,18 +80,29 @@ The model-driven app serves as the administrative hub for the solution:
 
 **Forms and views** from the Dataverse model are embedded, ensuring a consistent, modern, and streamlined admin experience.
 
+**Model Driven App -Active Parking Inspections page:**
+
+![Model Driven App -Active Parking Inspections page: ](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/model-driven%20app%20screenshot/Activ%20parking%20inspections.png)
+
 # **3. Canvas App (Inspector App)**
 A tablet-optimized canvas app enables field inspectors to efficiently log daily inspections:
 
 **Screens:**
 
 * **Home:** Easy navigation to ‘Review’ or ‘New Inspection’ screens
+  
+![Home Screen](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/canvas%20app%20screenshot/home%20screen.png)
 
 * **Review:** Gallery of today’s inspections (Inspection, Vehicle, DateTime, Make, Model, ParkingRequest, ParkingRequestDateTime)
+  
+![Review Screen](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/canvas%20app%20screenshot/Review%20Screen.png)
 
 * **New Inspection:** Form for logging an inspection, pre-populated with the current time; vehicle selection; quick creation of new vehicles if needed
+  
+![New Inspection Screen](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/canvas%20app%20screenshot/New%20inspection%20Screen.png)
 
 * **New Vehicle:** Capture and register vehicles not previously seen; post-submission navigation ensures updated inspection data
+![New Vehicle Screen](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/canvas%20app%20screenshot/New%20Vehicle%20Screen.png)
 
 **Modern controls** and clear headers are used throughout for usability.
 
@@ -117,10 +128,15 @@ The Power BI analytics solution is designed for actionable insight and executive
 - **Three Pages:**
 
    -   **Home:** Navigation buttons to Filters and Parking Review
+![Home Page](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/powerBI%20screenshot/Home%20page.png)
 
    -   **Filters:** Slicers for vehicle make/model, calendar, and day of week;   changes reflect dynamically across all report pages
 
+![Filters Page](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/powerBI%20screenshot/Filter%20page.png)
+
    -   **Parking Review:** Key cards (Total Inspections, % Valid Requests), bar charts (inspection outcomes over time), matrices (per-vehicle analytics), and direct links to underlying inspection records in the model-driven app
+
+![Parking Review Page](https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/powerBI%20screenshot/Parking%20Review%20page.png)
 
 * **Data Model:**
 
