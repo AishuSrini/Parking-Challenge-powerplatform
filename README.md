@@ -212,7 +212,7 @@ When contributing, please follow these steps:
 4.Open a pull request describing your changes
 
 ### **📝 License**
-This project is provided under the MIT License.
-You are free to use, modify, and distribute this solution for educational and non-commercial purposes.
+
+This project is licensed under the [MIT License](./LICENSE).
 
 Developed as part of the Microsoft Power Up Program – Pathfinder (Power Platform). For learning and demonstration only. No confidential data included.
