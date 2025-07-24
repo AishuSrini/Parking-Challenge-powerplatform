@@ -158,7 +158,7 @@ All key Power Automate expressions and Power BI DAX queries for this solution ar
 ### 🤖 **Demo:**
 
 **Watch a Demo Video:**
-[Watch the demo on YouTube] (https://youtu.be/3sR2cVcJAeo)
+[Watch the demo on YouTube](https://youtu.be/3sR2cVcJAeo)
 
 ### 🚦 **Solution Impact**
 * **End-to-end process automation:** From request to inspection and reporting.
