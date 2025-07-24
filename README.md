@@ -151,6 +151,10 @@ The Power BI analytics solution is designed for actionable insight and executive
    + Selecting a filter (vehicle or date) updates all linked metrics and visuals across the report.
 
    + Navigation buttons and links provide a seamless analytic experience.
+# 📚 **Appendix**
+
+All key Power Automate expressions and Power BI DAX queries for this solution are documented in [APPENDIX.md]https://github.com/AishuSrini/Parking-Challenge-powerplatform/blob/main/Appendix.md)
+
 
 # 🚦 **Solution Impact**
 * **End-to-end process automation:** From request to inspection and reporting.
